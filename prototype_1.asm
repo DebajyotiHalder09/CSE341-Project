@@ -37,7 +37,7 @@ prompt5 db 0Dh,0Ah,"Decrypted password: $"
 enc_msg db 0Dh,0Ah,"Encrypted password (hex): $"
 wrong_msg db 0Dh,0Ah,"Incorrect key! Access denied.$"
 access_den db 0Dh,0Ah,"Too many attempts. Access blocked.$"
-
+z
 .CODE 
 MAIN PROC
     ; initialize DS
