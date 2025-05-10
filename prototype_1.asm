@@ -19,7 +19,7 @@ key db 0                  ; Key for encryption and decryption
 attempts db 0             ; Number of failed attempts
 temp db 0                 ; Temporary variable for calculations
 pass_len db 0             ; Password length
-
+; here, the vault is saved using 3 sets of variables
 ; All strings use double quotes for consistency
 main_msg1 db "1.Encrypt$"
 main_msg2 db "2.Decrypt$"
